@@ -1,0 +1,17 @@
+{
+  "name": "Clavier Game",
+  "icons": [
+    {
+      "src": "./512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "./128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }
+  ],
+  "start_url": "/Clavier_Game/",
+  "display": "standalone"
+}

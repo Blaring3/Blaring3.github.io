@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./image/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./image/logo.svg" alt="logo">
+                    <h2>BLA<span class="danger">RING</span> </h2>
+                </div>
+                <div class="close" id="closeBtn">
+                    <i class="fa fa-close" id="close-logo"></i>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#" id="a1">
+                    <i class="fa fa-database"></i>
+                    <h3>Dashboard</h3>
+                </a>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    <h3>Customers</h3>
+                </a>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <i class="fa fa-paperclip"></i>
+                    <h3>Orders</h3>
+                </a>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <i class="fa fa-mail-reply"></i>
+                    <h3>Analytics</h3>
+                </a>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <i class="fa fa-dashboard"></i>
+                    <h3>Messages</h3>
+                    <span class="message-count">26</span>
+                </a>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <i class="fa fa-dashboard"></i>
+                    <h3>Products</h3>
+                </a>
+            </div>
+            <div class="sidebar ">
+                <a href="#" class="active">
+                    <i class="fa fa-dashboard"></i>
+                    <h3>Reports</h3>
+                </a>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <i class="fa fa-dashboard"></i>
+                    <h3>Settings</h3>
+                </a>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <i class="fa fa-dashboard"></i>
+                    <h3>Add Products</h3>
+                </a>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <i class="fa fa-usb"></i>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+
+        </aside>
+        <!-- Fin du Menu  -->
+        <!-- Sales -->
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date"><input type="date" name="" id=""></div>
+            <div class="insights">
+                <div class="sales">
+                    <i class="fa fa-graduation-cap"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Totals Sales</h3>
+                            <h1>20,565$</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                                <div class="number">
+                                    <p>81%</p>
+                                </div>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <small class="text-muted"></small>
+                </div>
+
+                <!-- EXPENSE -->
+
+
+
+                <div class="expenses">
+                    <i class="fa fa-graduation-cap"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Totals expenses</h3>
+                            <h1>10,565$</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                                <div class="number">
+                                    <p>81%</p>
+                                </div>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <small class="text-muted"></small>
+                </div>
+                <!-- INCoME -->
+
+
+
+                <div class="income">
+                    <i class="fa fa-graduation-cap"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Totals Income</h3>
+                            <h1>5,565$</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                                <div class="number">
+                                    <p>81%</p>
+                                </div>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <small class="text-muted"></small>
+            </div>
+
+
+            <!-- Tableau de production -->
+
+            <div class="recent-order">
+                <h2>Recent Order</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produtc Name</th>
+                            <th>Produtc number</th>
+                            <th>Payement</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+            </div>
+            <tbody>
+                <tr>
+                    <td>Foldable Mini Drone</td>
+                    <td>85631</td>
+                    <td>Due</td>
+                    <td class="warning">Pending</td>
+                    <td class="primary">Details</td>
+                </tr>
+                <tr>
+                    <td>Foldable Mini Drone</td>
+                    <td>85631</td>
+                    <td>Due</td>
+                    <td class="warning">Pending</td>
+                    <td class="primary">Details</td>
+                </tr>
+                <tr>
+                    <td>Foldable Mini Drone</td>
+                    <td>85631</td>
+                    <td>Due</td>
+                    <td class="warning">Pending</td>
+                    <td class="primary">Details</td>
+                </tr>
+                <tr>
+                    <td>Foldable Mini Drone</td>
+                    <td>85631</td>
+                    <td>Due</td>
+                    <td class="warning">Pending</td>
+                    <td class="primary">Details</td>
+                </tr>
+                <tr>
+                    <td>Foldable Mini Drone</td>
+                    <td>85631</td>
+                    <td>Due</td>
+                    <td class="warning">Pending</td>
+                    <td class="primary">Details</td>
+                </tr>
+            </tbody>
+            </table>
+            <a href="#">Show All</a>
+        </main>
+        <!-- Fin du main  -->
+        <div class="right">
+            <div class="top">
+                <button id="menuBtn">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="theme-toggler">
+                    <i class="fa fa-sun-o active" id="sun"></i>
+                    <i class="fa fa-moon-o" id="moon"></i>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey,<b>Daniel</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="./image/A-2365701-1629279549-2537.jpeg.jpg" alt="Profile Photot">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- end of top -->
+            <div class="recent-updates">
+                <h2>Recent Udapte</h2>
+            </div>
+            <div class="udaptes">
+                <div class="udapte">
+                    <div class="profile-photo">
+                        <img src="./image/b620504f310f5d8706341e6dd929d8be.jfif" alt="Profile Photo" srcset="">
+                    </div>
+                    <div class="message">
+                        <p><b>Zemmour</b>Receveid his order of negro</p>
+                        <small class="text-muted"></small>
+                    </div>
+                </div>
+                <div class="udapte">
+                    <div class="profile-photo">
+                        <img src="./image/b620504f310f5d8706341e6dd929d8be.jfif" alt="Profile Photo" srcset="">
+                    </div>
+                    <div class="message">
+                        <p><b>Zemmour</b>Receveid his order of negro</p>
+                        <small class="text-muted"></small>
+                    </div>
+                </div>
+                <div class="udapte">
+                    <div class="profile-photo">
+                        <img src="./image/b620504f310f5d8706341e6dd929d8be.jfif" alt="Profile Photo" srcset="">
+                    </div>
+                    <div class="message">
+                        <p><b>Zemmour</b>Receveid his order of negro</p>
+                        <small class="text-muted"></small>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- End Recetn Udapte -->
+            <div class="sales-analytics">
+                <h2>Sales Analytics</h2>
+                <div class="item online">
+                    <div class="icon">
+
+                        <i class="fa fa-shopping-cart"></i>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>ONLINE ORDERS</h3>
+                            <small class="text-muted">Last 24hours</small>
+                        </div>
+                        <h5 class="sucess">+39%</h5>
+                        <h3>3849</h3>
+                    </div>
+                </div>
+                <div class="item offline">
+                    <div class="icon">
+
+                        <i class="fa fa-list"></i>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>OFFLINE ORDERS</h3>
+                            <small class="text-muted">Last 24hours</small>
+                        </div>
+                        <h5 class="sucess">-17%</h5>
+                        <h3>1100</h3>
+                    </div>
+                </div>
+                <div class="item customers">
+                    <div class="icon">
+
+                        <i class="fa fa-male"></i>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>NEW CUSTOMERS</h3>
+                            <small class="text-muted">Last 24hours</small>
+                        </div>
+                        <h5 class="sucess">+9%</h5>
+                        <h3>349</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

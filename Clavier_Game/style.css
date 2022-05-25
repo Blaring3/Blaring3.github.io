@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.game {
+  background: rgb(176, 81, 81) 300px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: black;
+  height: 200px;
+  width: 450px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 6px 2px rgb(0 0 0 / 51%);
+}
+

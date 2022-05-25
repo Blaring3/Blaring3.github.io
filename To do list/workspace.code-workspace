@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\Projet site Clean"
+		},
+		{
+			"path": "..\\..\\..\\Documents\\Chef expresso\\JS-A-to-Z-f251c2e51b39977d0242c872d0b2cd96a601b17a"
+		},
+		{
+			"path": "..\\..\\..\\Documents\\Chef expresso\\algo"
+		},
+		{
+			"path": "..\\..\\..\\Documents\\Chef expresso\\JS-A-to-Z-57e9573398d7d9b637cc54e38cdf1713f4448181"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "Projet site Clean"
+	}
+}

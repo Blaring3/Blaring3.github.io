@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/fontawesome/css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="./style/style.css" type="text/css">
+</head>
+
+
+<body>
+    <header>
+        <div class="flex-container">
+            <h1>Phantom<i class='fas fa-hamburger'></i></h1>
+            <div class="mousse">
+                <div class="boule"></div>
+            </div>
+        </div>
+        <div class="flex-container2">
+            <div class="user">
+            </div>
+            <div id="burger">
+                <div class="logo"><i class="fas fa-hamburger"></i></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+    <!-- mousse -->
+    <span class="mouse" id="cursor"></span>
+    <span class="mouse" id="mouse1"></span>
+    <span class="mouse" id="mouse2"></span>
+    <!-- ///////////////////////////// -->
+
+
+
+    <div class="app">
+        <input type="text" name="mdp" id="Gmdp" value="Generateur de mot de passe " readonly>
+        <input type="range" name="range" id="range" min="4" max="24" value="8"
+            oninput="document.getElementById('chiffre').value=this.value">
+        <input type="text" name="chiffre" id="chiffre" value="8" readonly>
+
+        <div class="chekbox-container">
+            <input type="checkbox" id="lowercase" checked>
+            <label for="lowercase">a-z</label>
+
+            <input type="checkbox" id="uppercase">
+            <label for="uppercase">A-Z</label>
+
+            <input type="checkbox" id="numbers">
+            <label for="numbers">0-9</label>
+
+            <input type="checkbox" id="symbols">
+            <label for="symbols">!-?</label>
+        </div>
+        <button id="generateButton">Générer mot de passe</button>
+    </div>
+    <!-- 
+Form Checker -->
+
+    <main>
+        <form action="Formulaire">
+
+            <div class="back">
+
+                <div class="prenom">
+                    <h2>Pseudo</h2>
+                    <input type="text" name="Pseudo" id="Pseudo">
+                    <span class="target"></span>
+                </div>
+                <div class="Email">
+                    <h2>Email</h2>
+                    <input type="text" name="Email" id="Email">
+                    <span class="targetE"></span>
+                </div>
+                <div class="mdp">
+                    <h2>Mot de Passe</h2>
+                    <input type="password" id="mdp">
+                    <p id="bar"></p>
+                    <span class="targetmdp"></span>
+                </div>
+                <div class="Cmdp">
+                    <h2>Confirmer mdp</h2>
+                    <input type="password" name="Cmdp" id="Cmdp">
+                    <span class="targetCfmdp"></span>
+                </div>
+
+                <button type="submit" id="Form"> Valider</button>
+
+
+
+            </div>
+        </form>
+
+
+    </main>
+</body>
+<script src="./scripts/index.js"></script>
+
+</html>
